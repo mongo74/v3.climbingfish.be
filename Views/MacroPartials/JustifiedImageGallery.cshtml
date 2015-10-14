@@ -1,0 +1,22 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@using RJP.MultiUrlPicker.Models
+@using umbraco.MacroEngines
+@{
+    var rootItem = Model.Content.AncestorOrSelf(1);
+    var multiUrlPicker = rootItem.GetPropertyValue<MultiUrls>("mainNavigation");
+}              
+
+<div id="justifiedGallery" class="clearfix hidden-xs hidden-sm hidden-print hidden-md">
+    <a href="" class="grey">
+        <img alt="Home" src="/media/1043/kb_slideshow_zonsondergang-door-bomen.jpg" />
+    </a>
+    @if (multiUrlPicker.Any())
+    {
+        foreach (var image in multiUrlPicker.Select(item => new DynamicNode(item.Id)).Select(node => Umbraco.Media(Convert.ToInt32(node.GetPropertyValue("homepageImage")))))
+        {
+            <a href="" class="grey">
+                <img alt="@image.Name" src="@image.Url" />
+            </a>
+        }
+    }
+</div>

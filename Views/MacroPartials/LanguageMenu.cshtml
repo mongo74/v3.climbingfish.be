@@ -1,0 +1,13 @@
+@using System.Threading
+@using Language = umbraco.cms.businesslogic.language.Language
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+    var rootItem = Language.GetByCultureCode(
+        Thread.CurrentThread.CurrentUICulture.Name
+        ).CultureAlias.Substring(0, 2).ToUpper();
+}
+@*<a href="#" class="dropdown-toggle" data-toggle="dropdown">@rootItem <i class="icon-angle-down"></i></a>
+<ul class="dropdown-menu">
+    <li><a href="/">NL</a></li>
+    <li><a href="/EN/">EN</a></li>
+</ul>*@

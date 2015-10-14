@@ -1,0 +1,46 @@
+﻿@using log4net.Core
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@*
+    This snippet makes a breadcrumb of parents using an unordred html list.
+
+    How it works:
+    - It uses the Ancestors() method to get all parents and then generates links so the visitor get go back
+    - Finally it outputs the name of the current page (without a link)
+*@
+@{
+
+    var targetUrl = string.Empty;
+}
+<div class="container hidden-xs">
+    @if (CurrentPage.Ancestors().Any())
+    {
+        <ul class="breadcrumb">
+            @* For each page in the ancestors collection which have been ordered by Level (so we start with the highest top node first) *@
+            @foreach (var page in CurrentPage.Ancestors().OrderBy("Level"))
+            {
+                if (page.Visible)
+                {
+                    <li>
+                        @if (page.level == 2)
+    {
+        targetUrl = string.Format("/#{0}", page.Name);
+
+    }
+    else
+    {
+        targetUrl = page.Url;
+    }
+    <a href="@targetUrl">@page.displayName</a>
+        
+                        
+  
+                    </li>
+                }
+
+            }
+            @* Display the current page as the last item in the list *@
+            <li class="active">@CurrentPage.displayName</li>
+        </ul>
+    }
+</div>

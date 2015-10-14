@@ -1,0 +1,48 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@if (Model.MacroParameters["Doormat"] != null)
+{
+    var thisNode = Umbraco.Content(Model.MacroParameters["Doormat"]);
+    var sitemap = Umbraco.Content(Convert.ToInt32(thisNode.sitemap));
+    var partnerImage = Umbraco.Media(Convert.ToInt32(thisNode.GetPropertyValue("partner")));
+    
+    <div class="midnight-blue footer" id="doormat">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-left col-md-4">
+                    @thisNode.adres
+                    <p><i class="icon-phone"></i> @thisNode.phone<br /></p>
+                    <p><a href="mailto:@thisNode.email"><i class="icon-envelope social"></i> @thisNode.email</a></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>
+                        <a href="http://www.belgiumismindmapping.com/" target="_blank">
+                            <img src="@partnerImage.Url" alt="Belgium is mindmapping"/>
+                        </a>
+                    </p>
+                    <p><a href="@sitemap.Url"><small>@sitemap.pageTitle</small></a></p>
+                </div>
+                <div class="text-right col-md-4" id="SocialBlock">
+                    <h3>
+                        Follow us on  <span class="social">
+                            @if (!string.IsNullOrEmpty(@thisNode.facebook))
+                            {
+                                <a href="@thisNode.facebook" target="_blank"><i class="icon-facebook"></i></a>
+
+                            }
+                            @if (!string.IsNullOrEmpty(@thisNode.twitter))
+                            {
+                                <a href="@thisNode.twitter" target="_blank"><i class="icon-twitter"></i></a>
+                            }
+                            @if (!string.IsNullOrEmpty(@thisNode.linkedin))
+                            {
+                                <a href="@thisNode.linkedin" target="_blank"><i class="icon-linkedin"></i></a>
+                            }
+                        </span>
+                    </h3>
+                    <div class="fb-like" data-href="http://www.climbingfish.be/" data-width="180"
+                         data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

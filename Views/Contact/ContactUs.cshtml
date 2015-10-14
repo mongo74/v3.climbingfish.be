@@ -1,0 +1,100 @@
+﻿@using System.Web.Mvc.Html
+@using v3.climbingfish.be.Controllers
+@model v3.climbingfish.be.Models.ContactModel
+ 
+@using (Html.BeginUmbracoForm<ContactController>("HandleContactForm", FormMethod.Post, new { id = "ContactForm" }))
+{
+    @Html.HiddenFor(p => p.TargetPage)
+    <div class="form-group">
+        <h5>
+            <label class="control-label">@Html.LabelFor(p => p.FullName) *</label>
+            @Html.ValidationMessageFor(p => p.FullName, null, new { @class = "has-error" })
+        </h5>
+        <div class="controls">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon icon-user"></i></span>
+                @Html.TextBoxFor(p => p.FullName, new
+                {
+                    @class = "form-control"
+                })
+            </div>
+        </div>
+    </div>
+    <p style="text-align: justify;">
+    </p>
+
+    <div class="form-group ">
+        <h5>
+            <label class="control-label">@Html.LabelFor(p => p.Email) *</label>
+            @Html.ValidationMessageFor(p => p.Email, null, new { @class = "has-error" })
+        </h5>
+        <div class="controls">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon icon-envelope"></i></span>
+                @Html.TextBoxFor(p => p.Email, new
+                {
+                    @class = "form-control"
+                })
+            </div>
+        </div>
+    </div>
+    <p style="text-align: justify;"></p>
+
+    <div class="form-group ">
+        <h5>
+            <label class="control-label">@Html.LabelFor(p => p.Telephone)</label>
+            @Html.ValidationMessageFor(p => p.Telephone, null, new { @class = "has-error" })
+        </h5>
+        <div class="controls">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon icon-phone"></i></span>
+                @Html.TextBoxFor(p => p.Telephone, new
+                {
+                    @class = "form-control"
+
+                })
+            </div>
+        </div>
+    </div>
+    <p style="text-align: justify;">
+    </p>
+
+  <div class="form-group ">
+        <h5>
+            <label class="control-label">@Html.LabelFor(p => p.Subject) *</label>
+            @Html.ValidationMessageFor(p => p.Subject, null, new { @class = "has-error" })
+            </h5>
+        <div class="controls">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon icon-pencil"></i></span>
+                @Html.TextBoxFor(p => p.Subject, new
+                {
+                    @class = "form-control",
+                })
+            </div>
+        </div>
+    </div>
+    <p style="text-align: justify;">
+    </p>
+    <div class="form-group ">
+        <h5>
+            <label class="control-label">
+                @Html.LabelFor(p => p.Message) *
+        </label>@Html.ValidationMessageFor(p => p.Message, null, new { @class = "has-error" })
+    </h5>
+        <div class="controls">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon icon-pencil"></i></span>
+                @Html.TextAreaFor(p => p.Message, new
+                {
+                    @class = "form-control",
+                    @rows = "4"
+                })
+            </div>
+        </div>
+    </div>
+    <p style="text-align: justify;"> * = verplicht veld</p>
+    
+    <input type="submit" value="verzenden" class="btn btn-default" />
+}
+

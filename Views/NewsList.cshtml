@@ -1,0 +1,47 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+}
+@Umbraco.RenderMacro("JustifiedImageGallery")
+@Umbraco.RenderMacro("Breadcrumb")
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>
+                @CurrentPage.title
+            </h1>
+            @Html.Raw(CurrentPage.introduction)
+
+
+            @if (CurrentPage.Children.Where("Visible").Any())
+            {
+                foreach (var childPage in CurrentPage.Children.Where("Visible"))
+                {
+
+
+                    <h3>
+                        <a href="@childPage.Url">
+                            @childPage.title <br />
+                        </a><small>@String.Format("{0:dd MMMM yyyy}", @childPage.CreateDate)</small>
+                    </h3>
+                    <p><em>@childPage.introduction</em></p>
+                    <a href="@childPage.Url">Meer lezen</a>
+                    <hr />
+                }
+            }
+
+        </div>
+    </div>
+</div>
+
+@section Bottomscripts
+{
+    <script type="text/javascript">
+        $("#justifiedGallery").justifiedGallery({
+            rowHeight: 70,
+            lastRow: 'nojustify',
+            margins: 3,
+            captions: false
+        });
+    </script>
+}

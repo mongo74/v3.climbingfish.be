@@ -1,0 +1,63 @@
+﻿@inherits UmbracoTemplatePage
+@using EventCalendarBelle
+@using System.Globalization
+@{
+    Layout = "Root.cshtml";
+    int id = 0;
+    try
+    {
+        id = int.Parse(Model.Content.GetPropertyValue<string>("calendar"));
+    }
+    catch (Exception ex) { }
+    var calendar = EventCalendarHelper.GetCalendar(id);
+}
+
+<div class="container body-content" id="CalendarContainer">
+    <div id="calendar"></div>
+</div>
+@section headerScripts
+{
+    <link type="text/css" href="@Url.Content("~/css/EventCalendar/fullcalendar.css")" rel="stylesheet" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/scripts/EventCalendar/moment.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/scripts/EventCalendar/fullcalendar.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/scripts/EventCalendar/gcal.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/scripts/EventCalendar/lang-all.js")"></script>
+    <script type="text/javascript">
+    var event_details_url = '@Model.Content.Down().Url';
+    $(document).ready(function () {
+        var sources = [];
+        $.get("/umbraco/EventCalendar/ECApi/GetCalendarSources/", { id: '@id' }, function (data) {
+            $('#calendar').fullCalendar({
+                @if (null != calendar)
+                        {
+                            <text>defaultView: '@calendar.ViewMode',</text>
+                        }
+                        else {
+                            <text>defaultView: 'month',</text>
+                        }
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,basicWeek,basicDay'
+                },
+                lang: '@CultureInfo.CurrentCulture.TwoLetterISOLanguageName.ToLower()',
+                eventSources: data,
+                eventClick: function (event) {
+                    if (event.url) {
+                        window.open(event.url);
+                        return false;
+                    } else {
+                        if (event.type == 1) {
+                            window.location.href = event_details_url + '?id=' + event.id + '&type=1&calendar=' + event.calendar;
+                        } else {
+                            window.location.href = event_details_url + '?id=' + event.id + '&type=0&calendar=' + event.calendar;
+                        }
+                        return false;
+                    }
+                }
+            });
+        });
+    });
+    </script>
+}

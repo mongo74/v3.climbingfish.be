@@ -1,0 +1,12 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@if (Model.MacroParameters["CTABlock"] != null)
+{
+    var  contentPage = Umbraco.Content(Model.MacroParameters["CTABlock"]);
+    var targetPage = Umbraco.Content(contentPage.targetPage);
+
+    <div class="ContactUsCta">
+        <h3>@contentPage.title</h3>
+        @Html.Raw(contentPage.textBlock)
+        <a class="btn btn-info" href="@targetPage.Url">Stel ons een vraag >></a>
+    </div>
+}

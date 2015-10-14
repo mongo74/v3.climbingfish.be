@@ -1,0 +1,36 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{    
+    var startNode = Umbraco.Content(Model.MacroParameters["startNodeID"]);
+    var selection = startNode.Children.Where("Visible").OrderBy("UpdateDate desc").Take(2);
+}
+@if (selection.Any())
+{
+
+    <ul>
+        @foreach (var page in selection)
+        {
+
+
+            <li>
+                <a href="@page.Url">
+                    @page.title - <small>@String.Format("{0:dd/MM/yyyy}", @page.CreateDate)</small>
+                    <br />
+                    <small>
+                        <em>
+                            @library.TruncateString(library.StripHtml(@page.GetPropertyValue("introduction").ToString()), 150, "...")
+                        </em>
+                    </small>
+                    <br />
+                    <span class="link">verder lezen...</span>
+                </a>
+            </li>
+        }
+    </ul>
+
+}
+<br />
+<p class="clearfix center-block">
+    <a class="btn btn-default" href="@Umbraco.NiceUrl(1326)">Alle nieuwsberichten >></a>
+</p>
+ 

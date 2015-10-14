@@ -1,0 +1,15 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+}
+
+<div id="Homepage">
+    @Umbraco.RenderMacro("HomePageDisplay")
+</div>
+
+@section Bottomscripts {
+    <script src="~/scripts/climbingfish.js"></script>
+    <script src="~/scripts/scripts.js"></script>
+}
+	
+	

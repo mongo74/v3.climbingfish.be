@@ -1,0 +1,34 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+
+<h3>Nieuws archief</h3>
+@if (Model.MacroParameters["startNodeID"] != null)
+{
+    var startNode = Umbraco.Content(Model.MacroParameters["startNodeID"]);
+
+    if (startNode.Children.Where("Visible").Any())
+    {
+        foreach (var page in startNode.Children.Where("Visible"))
+        {
+
+
+            <a href="@page.Url">
+                <h4>
+                    @page.title - <small>@String.Format("{0:dd/MM/yyyy}", @page.CreateDate)</small>
+
+                </h4>
+            </a>  <p>
+                <small>
+                    <em>
+                        @library.TruncateString(library.StripHtml(@page.GetPropertyValue("introduction").ToString()), 150, "...")
+                    </em>
+                </small>
+                <br />
+                <a href="@page.Url">verder lezen...</a>
+
+            </p>
+            <hr />
+        }
+    }
+}

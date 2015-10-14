@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@using RJP.MultiUrlPicker.Models
+@{
+    var rootItem = Model.Content.AncestorOrSelf(1);
+    var multiUrlPicker = rootItem.GetPropertyValue<MultiUrls>("topNavigation");
+}
+
+@if (multiUrlPicker.Any())
+{
+    foreach (var item in multiUrlPicker)
+    {
+        <li><a href="@item.Url" target="@item.Target">@item.Name</a></li>
+    }
+}

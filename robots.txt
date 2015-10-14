@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /umbraco
+Disallow: /404
+Disallow: /500.html
+Sitemap: http://staging.climbingfish.be/sitemapxml/
+
+

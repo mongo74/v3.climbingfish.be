@@ -1,0 +1,23 @@
+@using v3.climbingfish.be.Models
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+@{
+    var list = EventViewModel.GetAllUpcomingEvents();
+}
+
+    <h3>Op de kalender</h3>
+    <ul>
+    @foreach (var eventForDisplay in list)
+    {
+        <li>
+            <a href="/kalender/details/?id=@eventForDisplay.Id&type=0&calendar=1" target="_blank">
+                @eventForDisplay.Title<br />
+                @eventForDisplay.Location,
+                <span class="date">
+                    @eventForDisplay.Date.ToString("dd MMMM yyyy")
+                </span> -
+                <span class="link">Meer info</span>
+            </a>
+        </li>
+    }
+</ul>

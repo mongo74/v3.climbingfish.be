@@ -1,0 +1,52 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+}
+@Umbraco.RenderMacro("JustifiedImageGallery")
+@Umbraco.RenderMacro("Breadcrumb")
+<div class="container">
+    <h1>Sitemap</h1>
+
+    @ListChildNodes(Umbraco.TypedContent(UmbracoContext.Current.PageId).AncestorOrSelf(1))
+
+</div>
+
+@helper ListChildNodes(IPublishedContent startNode)
+{
+    foreach (var node in startNode.Children.Where("hideInXmlSitemap == false"))
+    {
+        if (node.TemplateId > 0)
+        {
+            <ul>
+                <li>
+                    @Html.Raw(GetTargetLink(node))
+                    @if (node.Level <= 100 && node.Children.Count() > 0)
+                    {
+                        @ListChildNodes(node)
+                    }
+                </li>
+            </ul>
+        }
+    }
+}
+
+@functions {
+    private static string GetTargetLink(IPublishedContent node)
+    {
+        var targetUrl = node.Url;
+        var linkname = node.GetPropertyValue("pageTitle");
+        return string.Format(@"<a href={0}>{1}</a>", @targetUrl, @linkname);
+    }
+}
+
+@section Bottomscripts
+{
+    <script type="text/javascript">
+        $("#justifiedGallery").justifiedGallery({
+            rowHeight: 70,
+            lastRow: 'nojustify',
+            margins: 3,
+            captions: false
+        });
+    </script>
+}

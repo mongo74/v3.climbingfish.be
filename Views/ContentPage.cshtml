@@ -1,0 +1,31 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+}
+@Umbraco.RenderMacro("JustifiedImageGallery")
+@Umbraco.RenderMacro("Breadcrumb")
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>
+                @CurrentPage.title
+            </h1>
+            @Html.Raw(CurrentPage.introduction)
+            @CurrentPage.bodyContent
+        </div>
+    </div>
+</div>
+
+
+@section Bottomscripts
+{
+    <script type="text/javascript">
+        $("#justifiedGallery").justifiedGallery({
+            rowHeight: 70,
+            lastRow: 'hide',
+            margins: 1,
+            captions: false
+        });
+    </script>
+}

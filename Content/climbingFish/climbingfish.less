@@ -1,0 +1,219 @@
+﻿h1, h4, h5, h6 {
+    color: @orange;
+}
+
+h2, h3 {
+    color: @pumkin;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+.gradient-back {
+    color: @pumkin;
+}
+
+.contentBlock {
+    margin-bottom: 3em;
+}
+
+#logo {
+    font-weight: bold;
+}
+
+.recurringContentBlock {
+    display: block;
+    clear: both;
+}
+
+.ContactUsCta{
+    background-color: @orange;
+    color:@clouds;
+    border-radius: 8px;
+    margin-top:2em;
+    margin-bottom:3em;
+    padding:5px;
+    h3{
+        color:@midnight-blue;
+        margin-top:0em;
+    }
+    p{
+         color:@midnight-blue;
+    }
+
+}
+
+#SiteNavigation {
+    background-color: @orange;
+
+    a {
+        color: @clouds;
+        font-size: 1.4em;
+
+        &:hover,
+        &:active,
+        &:focus {
+            text-decoration: none;
+            color: @midnight-blue;
+        }
+    }
+}
+
+.has-error {
+    color: @brand-danger;
+}
+
+.breadcrumb {
+    background-color: #fff;
+}
+
+#Homepage {
+    .homepageSection {
+        display: block;
+        width: 100%;
+    }
+
+    .quote {
+        background: @orange-light;
+    }
+
+    .greyscaleSection {
+        position: absolute;
+        z-index: 0;
+        -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+        -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+        -webkit-filter: grayscale(100%);
+        filter: gray;
+        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    }
+
+    .HomeSectionContent {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+    }
+
+    .HomeBlock {
+        background: rgba(255, 255, 255, 0.7);
+        padding: 5px;
+        margin-top: 25px;
+        border-radius: 8px;
+
+        h3 {
+            color: @orange;
+            margin-top: -4px;
+        }
+    }
+
+    .TeaserBlock {
+        h3 {
+            color: @midnight-blue;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+
+            li {
+                background-image: url('/images/ClimbingFish_Logo_24x24.png');
+                background-repeat: no-repeat;
+                background-position-y: 5px;
+                padding-left: 28px;
+                margin-top: 10px;
+                display: block;
+
+                .date {
+                    font-weight: bold;
+                    color: @orange;
+                }
+
+                .link {
+                    color: @midnight-blue;
+                    font-weight: bold;
+                }
+
+                a {
+                    color: @gray-base;
+
+                    &:hover,
+                    &:active,
+                    &:focus {
+                        text-decoration: none;
+                        color: @midnight-blue;
+                    }
+                }
+            }
+        }
+    }
+
+    .SectionContent {
+        position: relative;
+        z-index: 10;
+        background: rgba(255, 255, 255, 0.3);
+
+        h2 {
+            color: @midnight-blue;
+            font-weight: bold;
+        }
+    }
+
+    .home {
+        background-image: url('/media/1043/kb_slideshow_zonsondergang-door-bomen.jpg');
+    }
+}
+
+#ErrorPage {
+    .ErrorPageSection {
+        display: block;
+        width: 100%;
+    }
+
+    .SectionContent {
+        position: relative;
+        z-index: 10;
+    }
+}
+
+
+.Calendar {
+    ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+
+        li {
+            background-image: url('/images/ClimbingFish_Logo_16x16.png');
+            background-repeat: no-repeat;
+            background-position-y: 15px;
+            padding-left: 28px;
+            display: block;
+
+            .date {
+                font-weight: bold;
+                color: @orange;
+            }
+        }
+    }
+}
+
+#doormat {
+    
+    color: @silver;
+    background-color: @midnight-blue;
+
+    i {
+        color: @orange;
+    }
+
+    a {
+        color: @orange;
+        font-size: 1.1em;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: @pumkin;
+        }
+    }
+}

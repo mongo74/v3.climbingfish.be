@@ -1,0 +1,125 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@if (CurrentPage.Children.Where("Visible").Any())
+{
+    foreach (var childPage in CurrentPage.Children.Where("Visible"))
+    {
+        <div class="row recurringContentBlock">
+            <h3>@childPage.title</h3>
+            <div class="col-md-3 col-sm-3 gradient-back">
+                
+              
+                <em>@childPage.introduction</em>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-6">
+                @if (childPage.captionImage != null && !(childPage.captionImage is Umbraco.Core.Dynamics.DynamicNull))
+                {
+                    var m = Umbraco.Media(childPage.captionImage);
+                    <img src="@m.Url" alt="@m.UrlName" class="img-responsive" />
+                }
+                @childPage.textBlock
+            </div>
+            <div class="col-md-2">
+              
+            </div>
+        </div>
+
+        @GetFirstLevelChildPages(childPage.Children)
+        @GetContentBlocksFirstLevel(childPage.Children)
+
+    }
+}
+@Umbraco.RenderMacro("ContactUsCTAFullWidth", new { CTABlock = "1357" })
+
+
+@helper GetFirstLevelChildPages(dynamic pages)
+{
+    if (!pages.Any())
+    {
+        return;
+    }
+    foreach (var page in pages.Where("Visible"))
+    {
+        if (page.DocumentTypeAlias == "ContentBlock")
+        {
+            <div class="clearfix"></div>
+            <div class="col-md-3 gradient-back">
+                <h4>@page.title</h4>
+                @page.introduction
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                @page.textBlock
+                @childPages(page.Children)
+                @GetContentBlocks(page.Children)
+            </div>
+            <div class="col-md-2"></div>
+        }
+    }
+}
+@helper childPages(dynamic pages)
+{
+    if (!pages.Any())
+    {
+        return;
+    }
+    foreach (var page in pages.Where("Visible"))
+    {
+        if (page.DocumentTypeAlias == "ContentBlock")
+        {
+            <h4>@page.title</h4>
+            <p>
+                <em class="gradient-back">
+                    @page.textBlock
+                </em>
+            </p>
+            @childPages(page.Children)
+            @GetContentBlocks(page.Children)
+        }
+    }
+}
+@helper GetContentBlocksFirstLevel(dynamic pages)
+{
+    if (!pages.Any())
+    {
+        return;
+    }
+    foreach (var page in pages.Where("Visible"))
+    {
+        if (page.DocumentTypeAlias == "ContentBlock")
+        {
+            continue;
+        }
+
+        <div class="row contentBlock">
+            <div class="col-md-3 gradient-back">
+                <h4>@page.title</h4>
+                @page.introduction
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">@page.textBlock</div>
+            <div class="col-md-2"></div>
+        </div>
+
+    }
+}
+@helper GetContentBlocks(dynamic pages)
+{
+    if (!pages.Any())
+    {
+        return;
+    }
+    <div class="row">
+        @foreach (var page in pages.Where("Visible"))
+        {
+            if (page.DocumentTypeAlias != "ContentBlock")
+            {
+                <div class="contentBlock">
+                    <h5> @page.title</h5>
+                    @page.textBlock
+                </div>
+            }
+        }
+    </div>
+}

@@ -1,0 +1,99 @@
+﻿@media (min-width: 768px) {
+    .row {
+        padding: 2px;
+    }
+
+    #logo {
+        background-image: url('../../images/ClimbingFish_Logo_64x64.png');
+        background-repeat: no-repeat;
+        padding-left: 72px;
+        height: 84px;
+        font-size: 2.2em;
+        font-weight: bold;
+    }
+
+    #doormat {
+        padding-top: 2em;
+
+        h3 {
+            padding: 0;
+        }
+    }
+
+    #Homepage {
+        .homepageSection {
+            width: 100%;
+            height: 650px;
+        }
+
+        #HomepageTeasers {
+            margin-top: 20%;
+        }
+
+        .quote {
+            margin-top: 2em;
+            padding: 8px;
+            border-radius: 15px;
+            color: @midnight-blue;
+            font-style: italic;
+
+            .quoteAuthor {
+                font-weight: bold;
+            }
+        }
+    }
+
+    #ErrorPage {
+        .ErrorPageSection {
+            height: 650px;
+            position: absolute;
+        }
+
+        .SectionContent {
+            position: relative;
+            z-index: 10;
+
+            h2 {
+                color: @midnight-blue;
+                font-weight: bold;
+            }
+        }
+
+        .MessageBlock {
+            background: rgba(255, 255, 255, 0.7);
+            padding: 12px 2em 2em 2em;
+            margin-top: 5em;
+            border-radius: 8px;
+            /*h3 {
+                color: @orange;
+                margin-top: -4px;
+            }*/
+        }
+    }
+
+    .gradient-back {
+        color: @pumkin;
+        text-align: right;
+    }
+}
+
+@media (min-width: 992px) {
+    #Homepage {
+        .quote {
+            padding: 8px;
+            margin-top: 30em;
+            border-radius: 15px;
+            color: @midnight-blue;
+            font-style: italic;
+
+            .quoteAuthor {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .justifiedGallery {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

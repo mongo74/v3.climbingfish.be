@@ -1,0 +1,47 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+}
+@Umbraco.RenderMacro("JustifiedImageGallery")
+@Umbraco.RenderMacro("SimpleBreadcrumb")
+
+
+
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>
+                @CurrentPage.title
+            </h1>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 Calendar">
+            @CurrentPage.bodyText
+        </div>
+        <div class="col-md-6 Calendar">
+            @Umbraco.RenderMacro("CalendarGetAllEventsList")
+
+        </div>
+    </div>
+    <div class="row">
+      @Umbraco.RenderMacro("ContactUsCTAFullWidth", new { CTABlock = "1357" })
+
+
+
+
+    </div>
+</div>
+
+@section Bottomscripts
+{
+    <script type="text/javascript">
+        $("#justifiedGallery").justifiedGallery({
+            rowHeight: 70,
+            lastRow: 'nojustify',
+            margins: 3,
+            captions: false
+        });
+    </script>
+}

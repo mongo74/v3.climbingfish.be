@@ -1,0 +1,18 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+<div class="container hidden-xs">
+    @if (CurrentPage.Ancestors().Any())
+    {
+        <ul class="breadcrumb">
+            @foreach (var page in CurrentPage.Ancestors().OrderBy("Level"))
+            {
+                if (page.Visible)
+                {
+                    <li>
+                        <a href="@page.Url">@page.displayName</a>
+                    </li>
+                }
+            }
+            <li class="active">@CurrentPage.displayName</li>
+        </ul>
+    }
+</div>

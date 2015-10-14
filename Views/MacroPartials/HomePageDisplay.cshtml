@@ -1,0 +1,94 @@
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@using RJP.MultiUrlPicker.Models
+@using umbraco.MacroEngines
+@{
+    var rootItem = Model.Content.AncestorOrSelf(1);
+    var multiUrlPicker = rootItem.GetPropertyValue<MultiUrls>("mainNavigation");
+}
+<section id="Home" class="home homepageSection" name="Home">
+
+    <div class="container">
+
+        <div class="row" id="HomepageTeasers">
+            <div class="col-md-5  ">
+                <div class="HomeSectionContent">
+                    <div class="HomeBlock">
+                        <h3>
+                            @CurrentPage.tagLine1
+                        </h3>
+                    </div>
+                    
+            
+                </div>
+                @if (!string.IsNullOrEmpty(@CurrentPage.tagLine2))
+                {
+                    <div class="HomeSectionContent">
+                        <div class="HomeBlock">
+                            <h3>
+                                @CurrentPage.tagLine2
+                            </h3>
+                        </div>
+                    </div>
+                }
+               
+            </div>
+
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-3">
+                <div class="HomeSectionContent">
+                    <div class="HomeBlock TeaserBlock">
+                        <h3>In het nieuws</h3>
+                      @Umbraco.RenderMacro("LatestNewsItems", new {startNodeID="1326"})
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="HomeSectionContent">
+                    <div class="HomeBlock TeaserBlock">
+                      @Umbraco.RenderMacro("CalendarEventsList")
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+@if (multiUrlPicker.Any())
+{
+    foreach (var item in multiUrlPicker)
+    {
+        var node = new DynamicNode(item.Id);
+        var image = Umbraco.Media(Convert.ToInt32(node.GetPropertyValue("homepageImage")));
+
+        <section id="@node.Name" name="@node.Name" class="RelativeContent">
+            <div class="greyscaleSection homepageSection" data-background="@image.Url"></div>
+            <div class="SectionContent homepageSection">
+                <div class="container">
+                    <h2>
+                        @node.GetPropertyValue("title")
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-9">
+                            @foreach (var subnode in node.Children.Where(subnode => subnode.Visible))
+                            {
+                                <div class="HomeBlock">
+                                    <h3>@subnode.GetPropertyValue("title")</h3>
+                                    <p>@Html.Raw(subnode.GetPropertyValue("introduction"))</p>
+                                    <a class="btn btn-default" href="@subnode.NiceUrl">Meer lezen >></a>
+                                </div>
+                            }
+                        </div>
+                        <div class="col-md-3 quote">
+                            &ldquo;@node.GetPropertyValue("quote")&rdquo;
+                            -  <span class="quoteAuthor">
+                                @node.GetPropertyValue("quoteAuthor")
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+}

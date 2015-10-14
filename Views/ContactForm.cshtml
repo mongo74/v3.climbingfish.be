@@ -1,0 +1,46 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+}
+@Umbraco.RenderMacro("JustifiedImageGallery")
+@Umbraco.RenderMacro("SimpleBreadcrumb")
+
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>
+                @CurrentPage.title
+            </h1>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 gradient-back">
+            <em>
+                @CurrentPage.textBlock
+            </em>
+        </div>
+        <div class="col-md-1">
+            &nbsp;
+        </div>
+        <div class="col-md-6 ">
+
+
+            @Umbraco.RenderMacro("Contact Us", new { ThanksPage = "1218" })
+        </div>
+        <div class="col-md-2">
+            &nbsp;
+        </div>
+    </div>
+</div>
+@section Bottomscripts
+{
+    <script type="text/javascript">
+        $("#justifiedGallery").justifiedGallery({
+            rowHeight: 70,
+            lastRow: 'nojustify',
+            margins: 3,
+            captions: false
+        });
+    </script>
+}
