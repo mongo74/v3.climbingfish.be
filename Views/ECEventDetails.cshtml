@@ -2,31 +2,29 @@
 @{
     Layout = "Root.cshtml";
 }
-@Umbraco.RenderMacro("JustifiedImageGallery")
-@Umbraco.RenderMacro("SimpleBreadcrumb")
-<div class="container body-content clearfix" id="CalendarContainer">
-    @Html.Action("GetEventDetails", "ECSurface", new { area = "EventCalendar", id = Request["id"], type = Request["type"] })
-</div>
-
-	@section headerScripts
-{
-    <link type="text/css" href="@Url.Content("~/css/EventCalendar/fullcalendar.css")" rel="stylesheet" />
+@section headerScripts {
+ <link type="text/css" href="@Url.Content("~/css/EventCalendar/fullcalendar.css")" rel="stylesheet" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="@Url.Content("~/scripts/EventCalendar/moment.min.js")"></script>
     <script type="text/javascript" src="@Url.Content("~/scripts/EventCalendar/fullcalendar.min.js")"></script>
     <script type="text/javascript" src="@Url.Content("~/scripts/EventCalendar/gcal.js")"></script>
     <script type="text/javascript" src="@Url.Content("~/scripts/EventCalendar/lang-all.js")"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-	}
+}
+
+@Umbraco.RenderMacro("JustifiedImageGallery")
+@Umbraco.RenderMacro("Breadcrumb")
+
+@Html.Action("GetEventDetails", "ECSurface", new { area = "EventCalendar", id = Request["id"], calendar = Request["calendar"], type = Request["type"] })
 
 @section Bottomscripts
 {
     <script type="text/javascript">
         $("#justifiedGallery").justifiedGallery({
             rowHeight: 70,
-            lastRow: 'nojustify',
-            margins: 3,
+            lastRow: 'hide',
+            margins: 1,
             captions: false
         });
     </script>

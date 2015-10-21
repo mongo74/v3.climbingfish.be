@@ -4,27 +4,33 @@
 @{
     var list = EventViewModel.GetFirstAmountUpcomingEvents(2);
 }
-
-    <h3>Op de kalender</h3>
-<ul>
-    @foreach (var eventForDisplay in list)
-    {
-        <li>
-            <a href="/kalender/details/?id=@eventForDisplay.Id&type=0&calendar=1" target="_blank">
-                @eventForDisplay.Title<br />
-                <em>@eventForDisplay.Location</em> - <span class="date">
-                    @eventForDisplay.Date.ToString("dd/MM/yyyy")
-                </span><br />
-                <span class="link">Meer info</span>
-            </a>
-        </li>
-    }
-</ul>
-<br />
-<div class="centered">
-    <a class="btn btn-default" href="@Umbraco.NiceUrl(1319)">Meer activiteiten >></a>
-</div>
+@if (list.Any())
+{
 
 
+    <div class="HomeSectionContent">
+        <div class="HomeBlock TeaserBlock">
+            <h3>Op de kalender</h3>
+            <ul>
+                @foreach (var eventForDisplay in list)
+                {
+                    <li>
+                        <a href="/kalender/details/?id=@eventForDisplay.Id&type=0&calendar=1" target="_blank">
+                            @eventForDisplay.Title<br />
+                            <em>@eventForDisplay.Location</em> - <span class="date">
+                                                                     @eventForDisplay.Date.ToString("dd/MM/yyyy")
+                                                                 </span><br />
+                            <span class="link">Meer info</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+            <br />
+            <div class="centered">
+                <a class="btn btn-default" href="@Umbraco.NiceUrl(1319)">Meer activiteiten >></a>
+            </div>
 
+        </div>
+    </div>
 
+}
