@@ -4,7 +4,8 @@
     var rootItem =  Model.Content.AncestorOrSelf(1);
     var multiUrlPicker = rootItem.GetPropertyValue<MultiUrls>("mainNavigation");
 }
-<nav id="SiteNavigation" class="navbar">
+
+<nav id="SiteNavigation" class="hidden-xs">
     <div class="container">
         @if (multiUrlPicker.Any())
         {

@@ -30,7 +30,7 @@ namespace v3.climbingfish.be.Models
                 Title = eEvent.Title,
                 Id = eEvent.Id,
                 Location = GetLocationById(eEvent.locationId, locationList).City
-            }).OrderByDescending(p => p.Date).ToList();
+            }).OrderBy(p => p.Date).ToList();
         }
 
         public static List<EventForDisplay> GetFirstAmountUpcomingEvents(int amount)

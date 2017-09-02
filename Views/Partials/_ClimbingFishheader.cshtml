@@ -1,7 +1,7 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 
 
-<nav class="navbar navbar-default" role="navigation" id="TopNavigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="TopNavigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed"
@@ -23,5 +23,5 @@
             </ul>
         </div>
     </div>
+    @Umbraco.RenderMacro("MainNavigation")
 </nav>
-@Umbraco.RenderMacro("MainNavigation")

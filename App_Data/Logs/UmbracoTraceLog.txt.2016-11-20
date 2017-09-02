@@ -1,0 +1,71 @@
+﻿2016-11-20 21:44:21,607 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2016-11-20 21:44:21,630 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2016-11-20 21:44:21,635 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-11-20 21:44:21,640 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 4ms)
+2016-11-20 21:44:21,719 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-11-20 21:44:21,720 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-11-20 21:44:21,720 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-11-20 21:44:21,722 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 17 (took 1ms)
+2016-11-20 21:44:21,735 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-11-20 21:44:21,736 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 6 (took 1ms)
+2016-11-20 21:44:21,736 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-11-20 21:44:21,739 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 45 (took 2ms)
+2016-11-20 21:44:21,786 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-11-20 21:44:21,787 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2016-11-20 21:44:21,787 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-11-20 21:44:21,788 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-11-20 21:44:22,858 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2016-11-20 21:44:23,081 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2016-11-20 21:44:23,901 [11] INFO  Umbraco.Web.UmbracoModule - [Thread 4] Setting OriginalRequestUrl: v3.climbingfish:80/umbraco
+2016-11-20 21:44:23,990 [11] INFO  umbraco.content - [Thread 4] Loading content from disk cache...
+2016-11-20 21:44:24,132 [11] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-11-20 21:44:24,134 [11] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2016-11-20 21:44:24,899 [11] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-11-20 21:44:24,900 [11] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 1ms)
+2016-11-20 21:44:25,657 [11] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2016-11-20 21:44:25,659 [11] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2016-11-20 21:44:25,828 [11] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-11-20 21:44:25,828 [11] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2016-11-20 21:45:29,770 [11] INFO  umbraco.BusinessLogic.Log - [Thread 5] Log scrubbed.  Removed all items older than 2016-09-21 21:45:29
+2016-11-20 21:46:56,181 [11] INFO  umbraco.BusinessLogic.Log - [Thread 6] Log scrubbed.  Removed all items older than 2016-09-21 21:46:56
+2016-11-20 21:48:22,597 [11] INFO  umbraco.BusinessLogic.Log - [Thread 14] Log scrubbed.  Removed all items older than 2016-09-21 21:48:22
+2016-11-20 21:49:49,005 [11] INFO  umbraco.BusinessLogic.Log - [Thread 18] Log scrubbed.  Removed all items older than 2016-09-21 21:49:48
+2016-11-20 21:51:15,401 [11] INFO  umbraco.BusinessLogic.Log - [Thread 20] Log scrubbed.  Removed all items older than 2016-09-21 21:51:15
+2016-11-20 21:52:41,810 [11] INFO  umbraco.BusinessLogic.Log - [Thread 21] Log scrubbed.  Removed all items older than 2016-09-21 21:52:41
+2016-11-20 21:54:08,215 [11] INFO  umbraco.BusinessLogic.Log - [Thread 20] Log scrubbed.  Removed all items older than 2016-09-21 21:54:08
+2016-11-20 21:55:34,623 [11] INFO  umbraco.BusinessLogic.Log - [Thread 5] Log scrubbed.  Removed all items older than 2016-09-21 21:55:34
+2016-11-20 21:57:01,023 [11] INFO  umbraco.BusinessLogic.Log - [Thread 23] Log scrubbed.  Removed all items older than 2016-09-21 21:57:01
+2016-11-20 21:58:27,421 [11] INFO  umbraco.BusinessLogic.Log - [Thread 5] Log scrubbed.  Removed all items older than 2016-09-21 21:58:27
+2016-11-20 21:59:53,846 [11] INFO  umbraco.BusinessLogic.Log - [Thread 27] Log scrubbed.  Removed all items older than 2016-09-21 21:59:53
+2016-11-20 22:01:20,267 [11] INFO  umbraco.BusinessLogic.Log - [Thread 27] Log scrubbed.  Removed all items older than 2016-09-21 22:01:20
+2016-11-20 22:02:46,660 [11] INFO  umbraco.BusinessLogic.Log - [Thread 23] Log scrubbed.  Removed all items older than 2016-09-21 22:02:46
+2016-11-20 22:04:13,077 [11] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2016-09-21 22:04:13
+2016-11-20 22:05:39,489 [11] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2016-09-21 22:05:39
+2016-11-20 22:07:05,905 [11] INFO  umbraco.BusinessLogic.Log - [Thread 31] Log scrubbed.  Removed all items older than 2016-09-21 22:07:05
+2016-11-20 22:08:32,313 [11] INFO  umbraco.BusinessLogic.Log - [Thread 5] Log scrubbed.  Removed all items older than 2016-09-21 22:08:32
+2016-11-20 22:09:58,722 [11] INFO  umbraco.BusinessLogic.Log - [Thread 12] Log scrubbed.  Removed all items older than 2016-09-21 22:09:58
+2016-11-20 22:11:25,122 [11] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2016-09-21 22:11:25
+2016-11-20 22:12:51,520 [11] INFO  umbraco.BusinessLogic.Log - [Thread 36] Log scrubbed.  Removed all items older than 2016-09-21 22:12:51
+2016-11-20 22:14:17,928 [11] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2016-09-21 22:14:17
+2016-11-20 22:15:44,333 [11] INFO  umbraco.BusinessLogic.Log - [Thread 41] Log scrubbed.  Removed all items older than 2016-09-21 22:15:44
+2016-11-20 22:17:10,733 [11] INFO  umbraco.BusinessLogic.Log - [Thread 43] Log scrubbed.  Removed all items older than 2016-09-21 22:17:10
+2016-11-20 22:18:37,142 [11] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2016-09-21 22:18:37
+2016-11-20 22:20:03,557 [11] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2016-09-21 22:20:03
+2016-11-20 22:21:29,978 [11] INFO  umbraco.BusinessLogic.Log - [Thread 47] Log scrubbed.  Removed all items older than 2016-09-21 22:21:29
+2016-11-20 22:22:56,380 [11] INFO  umbraco.BusinessLogic.Log - [Thread 51] Log scrubbed.  Removed all items older than 2016-09-21 22:22:56
+2016-11-20 22:24:22,795 [11] INFO  umbraco.BusinessLogic.Log - [Thread 50] Log scrubbed.  Removed all items older than 2016-09-21 22:24:22
+2016-11-20 22:25:49,202 [11] INFO  umbraco.BusinessLogic.Log - [Thread 51] Log scrubbed.  Removed all items older than 2016-09-21 22:25:49
+2016-11-20 22:27:15,600 [11] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2016-09-21 22:27:15
+2016-11-20 22:28:42,011 [11] INFO  umbraco.BusinessLogic.Log - [Thread 52] Log scrubbed.  Removed all items older than 2016-09-21 22:28:42
+2016-11-20 22:30:08,415 [11] INFO  umbraco.BusinessLogic.Log - [Thread 43] Log scrubbed.  Removed all items older than 2016-09-21 22:30:08
+2016-11-20 22:31:34,831 [11] INFO  umbraco.BusinessLogic.Log - [Thread 43] Log scrubbed.  Removed all items older than 2016-09-21 22:31:34
+2016-11-20 22:33:01,222 [11] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2016-09-21 22:33:01
+2016-11-20 22:34:27,635 [11] INFO  umbraco.BusinessLogic.Log - [Thread 50] Log scrubbed.  Removed all items older than 2016-09-21 22:34:27
+2016-11-20 22:35:54,058 [11] INFO  umbraco.BusinessLogic.Log - [Thread 52] Log scrubbed.  Removed all items older than 2016-09-21 22:35:54
+2016-11-20 22:37:20,464 [11] INFO  umbraco.BusinessLogic.Log - [Thread 41] Log scrubbed.  Removed all items older than 2016-09-21 22:37:20
+2016-11-20 22:38:46,875 [11] INFO  umbraco.BusinessLogic.Log - [Thread 50] Log scrubbed.  Removed all items older than 2016-09-21 22:38:46
+2016-11-20 22:40:13,289 [11] INFO  umbraco.BusinessLogic.Log - [Thread 44] Log scrubbed.  Removed all items older than 2016-09-21 22:40:13
+2016-11-20 22:41:39,766 [11] INFO  umbraco.BusinessLogic.Log - [Thread 43] Log scrubbed.  Removed all items older than 2016-09-21 22:41:39
+2016-11-20 22:43:06,180 [11] INFO  umbraco.BusinessLogic.Log - [Thread 48] Log scrubbed.  Removed all items older than 2016-09-21 22:43:06
+2016-11-20 22:44:32,585 [11] INFO  umbraco.BusinessLogic.Log - [Thread 48] Log scrubbed.  Removed all items older than 2016-09-21 22:44:32
+2016-11-20 22:44:45,529 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 44] Application shutdown. Reason: BinDirChangeOrDirectoryRename

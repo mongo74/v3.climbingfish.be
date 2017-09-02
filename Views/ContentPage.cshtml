@@ -13,10 +13,14 @@
             </h1>
             @Html.Raw(CurrentPage.introduction)
             @CurrentPage.bodyContent
+
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox"></div>
         </div>
     </div>
 </div>
-
+		
+			@Umbraco.RenderMacro("ContactUsCTAFullWidth", new { CTABlock = "1357" })
 
 @section Bottomscripts
 {

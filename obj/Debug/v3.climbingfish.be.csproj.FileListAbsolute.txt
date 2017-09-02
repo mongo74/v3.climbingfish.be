@@ -1,0 +1,160 @@
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\v3.climbingfish.be.dll.config
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\v3.climbingfish.be.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\v3.climbingfish.be.pdb
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\AutoMapper.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\AutoMapper.Net4.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\businesslogic.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ClientDependency.Core.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ClientDependency.Core.Mvc.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\cms.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\controls.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\CookComputing.XmlRpcV2.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Examine.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\HtmlAgilityPack.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ICSharpCode.SharpZipLib.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ImageProcessor.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ImageProcessor.Web.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\interfaces.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\log4net.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Lucene.Net.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Microsoft.Web.Helpers.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Microsoft.Web.Infrastructure.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\MiniProfiler.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\MySql.Data.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Newtonsoft.Json.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\SQLCE4Umbraco.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Data.SqlServerCe.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Data.SqlServerCe.Entity.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Net.Http.Formatting.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Helpers.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Http.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Http.WebHost.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Mvc.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Razor.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.Deployment.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.Razor.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\TidyNet.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Umbraco.Core.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.DataLayer.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.editorControls.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.MacroEngines.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.providers.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Umbraco.Web.UI.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\UmbracoExamine.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\UrlRewritingNet.UrlRewriter.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\DDay.iCal.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\AutoMapper.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\businesslogic.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ClientDependency.Core.pdb
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ClientDependency.Core.Mvc.pdb
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\cms.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\controls.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Examine.pdb
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\HtmlAgilityPack.pdb
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\HtmlAgilityPack.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\interfaces.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Lucene.Net.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\MiniProfiler.pdb
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\MiniProfiler.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Newtonsoft.Json.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Net.Http.Formatting.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Helpers.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Http.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Http.WebHost.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Mvc.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Razor.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.Deployment.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.Razor.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Umbraco.Core.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.DataLayer.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.editorControls.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.MacroEngines.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.providers.xml
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\obj\Debug\v3.climbingfish.be.csprojResolveAssemblyReference.cache
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\obj\Debug\v3.climbingfish.be.dll
+C:\Private\Personal_Projects\Climbingfish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\obj\Debug\v3.climbingfish.be.pdb
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\obj\Debug\v3.climbingfish.be.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\obj\Debug\v3.climbingfish.be.pdb
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\v3.climbingfish.be.dll.config
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\v3.climbingfish.be.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\v3.climbingfish.be.pdb
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\AutoMapper.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\AutoMapper.Net4.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\businesslogic.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ClientDependency.Core.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ClientDependency.Core.Mvc.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\cms.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\controls.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\CookComputing.XmlRpcV2.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Examine.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\HtmlAgilityPack.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ICSharpCode.SharpZipLib.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ImageProcessor.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ImageProcessor.Web.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\interfaces.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\log4net.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Lucene.Net.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Microsoft.Web.Helpers.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Microsoft.Web.Infrastructure.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\MiniProfiler.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\MySql.Data.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Newtonsoft.Json.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\SQLCE4Umbraco.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Data.SqlServerCe.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Data.SqlServerCe.Entity.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Net.Http.Formatting.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Helpers.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Http.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Http.WebHost.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Razor.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.Deployment.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\TidyNet.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Umbraco.Core.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.DataLayer.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.editorControls.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.MacroEngines.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.providers.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Umbraco.Web.UI.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\UmbracoExamine.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\UrlRewritingNet.UrlRewriter.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\DDay.iCal.dll
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\AutoMapper.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\businesslogic.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ClientDependency.Core.pdb
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\ClientDependency.Core.Mvc.pdb
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\cms.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\controls.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Examine.pdb
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\HtmlAgilityPack.pdb
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\HtmlAgilityPack.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\interfaces.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Lucene.Net.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\MiniProfiler.pdb
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\MiniProfiler.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Newtonsoft.Json.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Net.Http.Formatting.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Helpers.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Http.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Http.WebHost.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Mvc.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.Razor.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.Deployment.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\System.Web.WebPages.Razor.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\Umbraco.Core.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.DataLayer.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.editorControls.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.MacroEngines.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\bin\umbraco.providers.xml
+C:\Local Projects\ClimbingFish\v3.climbingfish.be\ClimbingFish\v3.climbingfish.be\obj\Debug\v3.climbingfish.be.csprojResolveAssemblyReference.cache
